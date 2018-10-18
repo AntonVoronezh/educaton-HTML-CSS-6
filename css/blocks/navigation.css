@@ -1,0 +1,25 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.navigation {
+    /* border: 1px solid #ffffff; */
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.navigation__item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navigation__link {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}

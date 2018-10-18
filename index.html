@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1100, initial-scale=1.0">
+    <meta name="viewport" content="width=800, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <title>Страница для портфолио (макет barbershop)</title>
@@ -19,20 +19,18 @@
     <div class="wrapper">
         <!-- start wrapper__content -->
         <div class="wrapper__content">
-            <!-- start container -->
-            <a class="container">
-                <!-- start header -->
-                <header class="header">
+            <!-- start header -->
+            <header class="header">
+                <!-- start container -->
+                <div class="container header--container">
                     <!-- start site navigation -->
                     <nav class="navigation">
                         <ul class="navigation__list">
-                            <li class="navigation__item">
-                                <a class="navigation__link" href="info.html">информация</a>
-                                <a class="navigation__link" href="news.html">новости</a>
-                                <a class="navigation__link" href="price.html">прайс-лист</a>
-                                <a class="navigation__link" href="shop.html">магазин</a>
-                                <a class="navigation__link" href="contacts.html">контакты</a>
-                            </li>
+                            <li class="navigation__item"><a class="navigation__link" href="info.html">информация</a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="news.html">новости</a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="price.html">прайс-лист</a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="shop.html">магазин</a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="contacts.html">контакты</a></li>
                         </ul>
                     </nav>
                     <!-- end site navigation -->
@@ -45,22 +43,56 @@
                         </ul>
                     </section>
                     <!-- end user navigation -->
-                    <!-- start logo -->
-                    <p class="logo">
-                        <a class="logo__link">
-                            <img class="logo__img" src="img/logo/logo-big.jpg" alt="логотип компании">
-                        </a>
-                    </p>
-                    <!-- end logo -->
-                </header>
-                <!-- end header -->
-                <!-- start maincontent -->
-                <div class="maincontent">
-                    <!-- start main -->
-                    <main class="main">
+                    <!-- start personal account form -->
+                    <section class="personal-account visible-hidden">
+                        <h3 class="info__title">личный кабинет</h3>
+                        <p class="info__text">
+                            введите свой логин и пароль
+                        </p>
+                        <form class="login" action="#" method="POST">
+                            <input class="login__form-input" type="text" placeholder="логин">
+                            <input class="login_form-input" type="password" placeholder="пароль">
+                            <div class="login__form-info">
+                                <div class="login__form-memorize">
+                                    <label>
+                                        <input class="login__form-radio" type="radio" name="radio-test" checked>
+                                        <span class="login__form-radio-custom"></span>
+                                        <span class="label">запомнить меня</span>
+                                    </label>
+                                </div>
+                                <a class="login__form-link" href="#">
+                                    <p class="info__text"> я забыл пароль! </p>>
+                                </a>
+                            </div>
+                            <div class="login__link-block">
+                                <button type="submit" class="login__form-button">
+                                    <span class="login__form-text">
+                                        войти
+                                    </span>
+                                </button>
+                        </form>
+                    </section>
+                    <!-- end personal account form  -->
+                </div>
+                <!-- end container -->
+            </header>
+            <!-- end header -->
+            <!-- start maincontent -->
+            <div class="maincontent">
+                <!-- start main -->
+                <main class="main">
+                    <!-- start container -->
+                    <div class="container main--container">
                         <!-- start page title -->
                         <h1 class="visible-hidden">Бабрбершоп Бородинский</h1>
                         <!-- end page title -->
+                        <!-- start logo -->
+                        <p class="logo">
+                            <a class="logo__link">
+                                <img class="logo__img" src="img/logo/index-logo.png" alt="логотип компании">
+                            </a>
+                        </p>
+                        <!-- end logo -->
                         <!-- start short info -->
                         <h2 class="visible-hidden">Короткая информация</h2>
                         <!-- end short info -->
@@ -181,58 +213,59 @@
                             </section>
                         </div>
                         <!-- end contact info block -->
-                    </main>
-                    <!-- end main -->
+                    </div>
+                    <!-- end container -->
+                </main>
+                <!-- end main -->
+            </div>
+            <!-- end maincontent -->
+            <!-- start footer -->
+            <footer class="footer">
+                <!-- start container -->
+                <div class="container footer--container">
+                    <!-- start footer address -->
+                    <section class="address">
+                        <p class="info__text info__text--footer-address">
+                            барбершоп «бородинский» <br>
+                            адрес: г. санкт-петербург, ул. б. конюшенная, д. 19/8 <br>
+                            как нас найти? <br>
+                            телефон: +7 (495) 666-02-66
+                        </p>
+                    </section>
+                    <!-- end footer address -->
+                    <!-- start footer social -->
+                    <section class="social">
+                        <span class="social__title">
+                            давайте дружить!
+                        </span>
+                        <div class="social__nav">
+                            <ul class="social__list">
+                                <li class="social__item">
+                                    <a class="" social__link href="#">vkontakte</a>
+                                    <a class="social__link" href="#">facebook</a>
+                                    <a class="social__link" href="#">instagram</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!-- end footer social -->
+                    <!-- start footer signature -->
+                    <section class="signature">
+                        <span class="signature__title">
+                            давайте дружить!
+                        </span>
+                        <p class="signature__text">
+                            antonvoronezh
+                        </p>
+                    </section>
+                    <!-- end footer signature -->
                 </div>
-                <!-- end maincontent -->
+                <!-- end container -->
+            </footer>
+            <!-- end footer -->
         </div>
-        <!-- end container -->
-    </div>
-    <!-- end wrapper__content -->
-    <!-- start footer -->
-    <footer class="footer">
-        <!-- start container -->
-        <div class="container">
-            <!-- start footer address -->
-            <section class="address">
-                <p class="info__text info__text--footer-address">
-                    барбершоп «бородинский» <br>
-                    адрес: г. санкт-петербург, ул. б. конюшенная, д. 19/8 <br>
-                    как нас найти? <br>
-                    телефон: +7 (495) 666-02-66
-                </p>
-            </section>
-            <!-- end footer address -->
-            <!-- start footer social -->
-            <section class="social">
-                <span class="social__title">
-                    давайте дружить!
-                </span>
-                <div class="social__nav">
-                    <ul class="social__list">
-                        <li class="social__item">
-                            <a class="" social__link href="#">vkontakte</a>
-                            <a class="social__link" href="#">facebook</a>
-                            <a class="social__link" href="#">instagram</a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <!-- end footer social -->
-            <!-- start footer signature -->
-            <section class="signature">
-                <span class="signature__title">
-                    давайте дружить!
-                </span>
-                <p class="signature__text">
-                    antonvoronezh
-                </p>
-            </section>
-            <!-- end footer signature -->
-        </div>
-        <!-- end container -->
-    </footer>
-    <!-- end footer -->
+        <!-- end wrapper__content -->
+
     </div>
 </body>
 
