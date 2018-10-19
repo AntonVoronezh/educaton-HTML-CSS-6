@@ -1,0 +1,41 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.footer--container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    color: #ffffff;
+}
+
+.address {
+    border: 1px solid #ffffff;
+    width: 43%;
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.social {
+    border: 1px solid #ffffff;
+    width: 23%;
+    padding-top: 20px;
+}
+
+.signature {
+    border: 1px solid #ffffff;
+    width: 33%;
+    padding-top: 20px;
+}
+
+.address__text,
+.social__title,
+.signature__title {
+    text-transform: uppercase;
+}
+
+.social__title,
+.signature__title {
+text-align: center;
+}
