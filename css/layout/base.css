@@ -21,10 +21,17 @@ body {
 
 .wrapper__content {
     flex: 1;
-    background-image: url('../../img/decor/tint.png');
     margin: 0;
-    /* width: 2560px; */
-    background-size: cover;
+ 
+}
+
+.wrapper__content--index {
+  background-image: url('../../img/decor/tint.png');  
+  background-size: cover;
+}
+
+.wrapper__content--all {
+    background-color: #f6f3f0;
 }
 
 .container {
