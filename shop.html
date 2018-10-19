@@ -115,11 +115,29 @@
                                 <form class="filter" method="POST" action="#">
                                     <fieldset class="filter__fieldset">
                                         <legend class="filters__legend">производители:</legend>
-                                        
+                                        <ul class="filter__list">
+                                            <li class="filter__item">
+                                                <label>
+                                                    <input class="checkbox" type="checkbox" name="checkbox-test">
+                                                    <span class="checkbox-custom"></span>
+                                                    <span class="label">baxter of california</span>
+                                                </label>
+                                            </li>
+                                        </ul>
                                     </fieldset>
                                     <fieldset class="filter__fieldset">
-                                            <legend class="filters__legend">группы товаров:</legend>
-                                        </fieldset>
+                                        <legend class="filters__legend">группы товаров:</legend>
+                                        <ul class="filter__list">
+                                            <li class="filter__item">
+                                                <label>
+                                                    <input class="radio" type="radio" name="radio-test">
+                                                    <span class="radio-custom"></span>
+                                                    <span class="label">бритвенные принадлежности</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </fieldset>
+                                    <button class="filters__btn  filters__btn--submit" type="submit">Отправить</button>
                                 </form>
                             </section>
                             <!-- end filter -->
