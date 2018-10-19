@@ -35,3 +35,7 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.user-navigation__link:hover {
+    color: #cccccc;
+}

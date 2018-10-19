@@ -23,7 +23,7 @@ body {
     flex: 1;
     background-image: url('../../img/decor/tint.png');
     margin: 0;
-    height: 100%;
+    /* width: 2560px; */
     background-size: cover;
 }
 

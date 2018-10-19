@@ -99,7 +99,7 @@
                         <!-- start short info block -->
                         <div class="gorizontal-block gorizontal-block--black gorizontal-block--three">
                             <section class="info info--quickly">
-                                <h3 class="info__title">быстро</h3>
+                                <h3 class="info__title title--shape">быстро</h3>
                                 <p class="info__text">
                                     мы делаем свою работу быстро! два часа пролетят незаметно и вы — счастливый
                                     обладатель
@@ -107,7 +107,7 @@
                                 </p>
                             </section>
                             <section class="info info--cool">
-                                <h3 class="info__title">круто</h3>
+                                <h3 class="info__title title--shape">круто</h3>
                                 <p class="info__text">
                                     забудьте, как вы стриглись раньше.
                                     мы сделаем из вас звезду футбола или кино!
@@ -115,7 +115,7 @@
                                 </p>
                             </section>
                             <section class="info info--dearly">
-                                <h3 class="info__title">дорого</h3>
+                                <h3 class="info__title title--shape">дорого</h3>
                                 <p class="info__text">
                                     наши мастера — профессионалы своего дела и не могут стоить дешево. к тому же, разве
                                     цена не дает определеный статус?
@@ -144,19 +144,24 @@
                                 <time class="info__date" datetime="2018-10-13">
                                     13.10.2018
                                 </time>
-                                <p class="info__link-block">
-                                    <a class="info__link" href="news.html">все новости</a>
-                                </p>
+                                <a class="info__link" href="news.html">
+                                    <p class="info__link-block">все новости</p>
+                                </a>
                             </section>
+                            <span class="info__streak"></span>
                             <section class="info info--photogallery">
                                 <h3 class="info__title">фотогалерея</h3>
                                 <div class="info__gallery">
-                                    <img class="info__img" src="img/gallery/img1.jpg" alt="фото">
+                                    <img class="info__img" src="img/photo/photo1.png" alt="фото">
                                 </div>
-                                <p class="info__link-block">
-                                    <a class="info__link" href="#">назад</a>
-                                    <a class="info__link" href="#">вперед</a>
-                                </p>
+                                <div class="info__pseudobuttons">
+                                    <a class="info__link" href="#">
+                                        <p class="info__link-block">назад</p>
+                                    </a>
+                                    <a class="info__link info__link--right" href="#">
+                                        <p class="info__link-block">вперед</p>
+                                    </a>
+                                </div>
                             </section>
                         </div>
                         <!-- end important info block -->
@@ -165,11 +170,8 @@
                         <!-- end contact info -->
                         <!-- start contact info block -->
                         <div class="gorizontal-block gorizontal-block--white gorizontal-block--two">
-                            <section class="info info--address">
-                                <h3 class="info__title">контактная информация</h3>
-
-                            </section>
                             <section class="info info--contact">
+                                <h3 class="info__title">контактная информация</h3>
                                 <p class="info__text">
                                     барбершоп «бородинский» <br>
                                     адрес: г. санкт-петербург, б. конюшенная, д. 19/8 <br>
@@ -180,35 +182,42 @@
                                     пн—пт: с 10:00 до 22:00 <br>
                                     сб—вс: с 10:00 до 19:00
                                 </p>
-                                <p class="info__link-block">
-                                    <a class="info__link" href="#">как проехать</a>
-                                    <a class="info__link" href="#">обратная связь</a>
-                                </p>
+                                <div class="info__pseudobuttons">
+                                    <a class="info__link" href="#">
+                                        <p class="info__link-block">как проехать</p>
+                                    </a>
+                                    <a class="info__link info__link--right" href="#">
+                                        <p class="info__link-block">обратная связь</p>
+                                    </a>
+                                </div>
                             </section>
+                            <span class="info__streak"></span>
                             <section class="info info--join">
+                                <h3 class="info__title">записаться</h3>
                                 <p class="info__text">
                                     укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони
                                 </p>
                                 <form class="info__form">
-                                    <label class="info__form-label">дата
+                                    <label class="info__form-label">дата <br>
                                         <input class="info__form-input" type="text" placeholder="12.10.2018">
                                     </label>
-                                    <label class="info__form-label">время
+                                    <label class="info__form-label">время <br>
                                         <input class="info__form-input" type="text" placeholder="10:00">
                                     </label>
-                                    <label class="info__form-label">ваше имя
+                                    <label class="info__form-label">ваше имя <br>
                                         <input class="info__form-input" type="text" placeholder="Борода">
                                     </label>
-                                    <label class="info__form-label">телефон
+                                    <label class="info__form-label">телефон <br>
                                         <input class="info__form-input" type="tel" placeholder="+7 (000) 234 53 57">
                                     </label>
-                                    <div class="info__link-block">
-                                        <button type="submit" class="info__form-button">
+                                    <button type="submit" class="info__form-button">
+                                        <div class="info__link-block info__link-block--button">
                                             <span class="info__form-text">
                                                 отправить
                                             </span>
-                                        </button>
-                                    </div>
+                                        </div>
+                                    </button>
+
                                 </form>
                             </section>
                         </div>
