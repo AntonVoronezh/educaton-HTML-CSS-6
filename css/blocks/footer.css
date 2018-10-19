@@ -37,5 +37,52 @@
 
 .social__title,
 .signature__title {
-text-align: center;
+margin-top: 20px;
+}
+
+.social, .signature {
+    text-align: center;
+}
+.social__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__item {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid #ffffff; */
+    background-color: #000000;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.social__block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../../img/icons/css_sprites.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.social__block--vk {
+    width: 27px;
+    height: 15px;
+    background-position: -300px -10px;
+}
+
+.social__block--fb {
+    width: 11px;
+    height: 22px;
+    background-position: -131px -10px;
+}
+
+.social__block--inst {
+    width: 20px;
+    height: 20px;
+    background-position: -162px -10px;
 }
