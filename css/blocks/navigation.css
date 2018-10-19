@@ -27,3 +27,8 @@
 .navigation__link:hover {
     color: #cccccc;
 }
+
+.navigation__img {
+    display: block;
+    width: 100%;
+}
