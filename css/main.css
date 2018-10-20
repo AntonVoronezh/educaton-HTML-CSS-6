@@ -22,3 +22,8 @@
 @import url('../css/blocks/item/item-title.css');
 @import url('../css/blocks/item/item-photos__big.css');
 @import url('../css/blocks/item/item-photos__list.css');
+@import url('../css/blocks/item/item-desc__articul.css');
+@import url('../css/blocks/item/item-desc__text.css');
+@import url('../css/blocks/item/item-desc__price-buy.css');
+@import url('../css/blocks/item/item-card__composition.css');
+@import url('../css/blocks/item/item-desc__composition.css');
