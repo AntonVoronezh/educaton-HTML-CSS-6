@@ -9,25 +9,58 @@
     padding: 10px 10px 20px;
 }
 
-.item-center {
-    padding: 10px;
-    /* border: 1px solid #000000; */
+.item-bottom {
+    border: 1px solid #000000;
+    padding: 20px;
+    /* margin-left: 30%; */
     display: flex;
 }
 
-.filters {
-    /* border: 1px solid #000000; */
-    width: 27%;
-
+.item-photos {
+    border: 1px solid #000000;
+    width: 50%;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
 }
 
-.catalog {
-    padding-left: 40px;
-    /* border: 1px solid #000000; */
-    width: 73%;
+.item-desc {
+    border: 1px solid #000000;
+    width: 50%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* justify-content: flex-end; */
 }
 
-.item-bottom {
-    padding: 20px;
-    margin-left: 30%;
+.item-photos__big {
+    border: 1px solid #000000;  
+    width: 100%;
+}
+
+.item-photos__list {
+    border: 1px solid #000000;  
+    width: 100%;
+}
+
+.item-desc__articul {
+    border: 1px solid #000000; 
+    /* width: 100%; */
+}
+
+.item-desc__text {
+    border: 1px solid #000000; 
+    /* width: 100%; */
+}
+
+.item-desc__price-buy {
+    border: 1px solid #000000; 
+    /* width: 100%; */
+}
+
+.item-card__composition {
+    border: 1px solid #000000; 
+    /* width: 100%; */
 }
