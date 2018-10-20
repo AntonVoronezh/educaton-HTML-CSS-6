@@ -1,0 +1,32 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.price--container {}
+
+.price-top {
+    border: 1px solid #000000;
+    padding: 10px 10px 20px;
+}
+
+.price-center {
+    border: 1px solid #000000;  
+}
+.price-bottom {
+    border: 1px solid #000000;
+    padding: 20px;
+    display: flex;
+
+}
+
+.advantages {
+    border: 1px solid #000000;  
+    width: 50%; 
+    padding-right: 10px;
+}
+
+.our-prices {
+    border: 1px solid #000000; 
+    width: 50%;
+    padding-left: 10px;
+}
