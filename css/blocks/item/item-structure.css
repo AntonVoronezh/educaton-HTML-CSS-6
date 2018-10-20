@@ -1,0 +1,33 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.item--container {}
+
+.item-top {
+    /* border: 1px solid #000000; */
+    padding: 10px 10px 20px;
+}
+
+.item-center {
+    padding: 10px;
+    /* border: 1px solid #000000; */
+    display: flex;
+}
+
+.filters {
+    /* border: 1px solid #000000; */
+    width: 27%;
+
+}
+
+.catalog {
+    padding-left: 40px;
+    /* border: 1px solid #000000; */
+    width: 73%;
+}
+
+.item-bottom {
+    padding: 20px;
+    margin-left: 30%;
+}
