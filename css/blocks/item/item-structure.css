@@ -37,12 +37,12 @@
 }
 
 .item-photos__big {
-    border: 1px solid #000000;  
+    /* border: 1px solid #000000;   */
     width: 100%;
 }
 
 .item-photos__list {
-    border: 1px solid #000000;  
+    /* border: 1px solid #000000;   */
     width: 100%;
 }
 
